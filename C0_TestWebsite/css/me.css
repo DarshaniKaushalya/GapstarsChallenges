@@ -1,0 +1,35 @@
+body{
+  /* background-color: #CFEEEC; */
+  /* font-family: 'Montserrat Subrayada', sans-serif; */
+/* font-family: 'Sacramento', cursive; */
+/* font-family: 'Merriweather' , serif; */
+}
+.first-container{
+  background-color:#CFEEEC;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+.top{
+/* position: fixed; */
+margin-left: 900px;
+}
+.middle{
+margin-left: 300px;
+/* margin-top:50px; */
+}
+
+.bottom{
+  margin-left: 100px;
+}
+/* .cen{
+  margin-top: 90px;
+} */
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 80px;
+  font-weight: 600;
+}
+p{
+  /* font-family: 'Montserrat Subrayada', sans-serif; */
+}

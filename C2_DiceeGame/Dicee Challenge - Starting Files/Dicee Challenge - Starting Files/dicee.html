@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Dicee</title>
+
+    <script>
+        function reloadPage() {
+            location.reload(true);
+        }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+    <link type="favicon" rel="icon" href="images/mydice.png">
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Refresh Me</h1>
+
+        <div class="dice">
+            <p>Player 1</p>
+            <img class="img1" src="images/dice6.png">
+        </div>
+
+        <div class="dice">
+            <p>Player 2</p>
+            <img class="img2" src="images/dice6.png">
+        </div>
+
+
+    </div>
+
+
+    <script src="index.js" charset="utf-8"></script>
+
+    <div class="click">
+        <center><button type="button" id="clickMe" onclick="reloadPage();"><h3 id="click">Click Me</h3></button></center>
+    </div>
+    <div id="scoreClass">
+
+
+        <h5 id="score1">score1</h5>
+
+
+        <!-- <center>
+            <table id="scoreTable">
+                <tr>
+                    <td>
+                        <center>
+                            <h2 id="score">Score</h2>
+                        </center>
+                    </td>
+
+                </tr>
+                <tr>
+                    <th>
+                        <h3 class="playerScore">Player One</h3>
+                    </th>
+
+                    <th>
+                        <h3 class="playerScore">Player Two</h3>
+                    </th>
+
+                </tr>
+
+                <tr>
+                    <td id="catchScore" class="scoreOne">
+                        <center>
+
+                        </center>
+                    </td>
+
+                    <td id="catchScore" class="scoreTwo">
+                        <center>
+
+                        </center>
+                    </td>
+
+                </tr>
+
+            </table>
+        </center> -->
+
+    </div>
+
+</body>
+
+<footer>
+    www 🎲 App Brewery 🎲 com
+</footer>
+
+</html>

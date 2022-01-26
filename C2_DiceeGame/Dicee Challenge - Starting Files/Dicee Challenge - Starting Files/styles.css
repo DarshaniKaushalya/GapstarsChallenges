@@ -1,0 +1,81 @@
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.dice {
+    text-align: center;
+    display: inline-block;
+}
+
+body {
+    background-color: #393E46;
+}
+
+h1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 8rem;
+    color: #4ECCA3;
+}
+
+p,
+h2 {
+    font-size: 2rem;
+    color: #4ECCA3;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+}
+
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.click {
+    padding: 20px;
+    font-style: Bold;
+    font-weight: 500;
+}
+
+#clickMe {
+    background-color: #4ECCA3;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#clickMe:hover {
+    background-color: #F2EFDA;
+}
+
+h3 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#scoreTable {
+    border-style: dotted;
+    border-color: aliceblue;
+    border-width: 2px;
+    padding: 50px;
+    align-items: center;
+    column-span: 3;
+}
+
+#catchScore {
+    color: white;
+}
+
+.playerScore {
+    color: #90EEDD;
+    font-family: 'Indie Flower', cursive;
+}

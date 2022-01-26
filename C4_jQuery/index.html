@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js">
+    </script>
+</head>
+
+<body>
+    <h1>Hello</h1>
+
+    <button id="mybtn"><h2 id="book">Darshani</h2></button>
+    <button class="e">I m e</button>
+    <button class="lone">I m lone</button>
+    <button class="ltwo">I m ltwo</button>
+    <button class="o">I m o</button>
+
+    <input type="text" name="" value="">
+
+    <h1 style="color:green;">
+        GeeksForGeeks
+    </h1>
+    <h3>How to Change the Text of a Button using jQuery?</h3>
+    <p>Click on button to change text from "Click" to "Html Click"</p>
+    <button type="button" id="Geeks">Click</button>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                // Change text of button element
+                $("#Geeks").html("Html Click");
+            });
+        });
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

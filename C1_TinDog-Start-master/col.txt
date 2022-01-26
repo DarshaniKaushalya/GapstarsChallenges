@@ -1,0 +1,49 @@
+<div class="row">
+        <div class="col" style="background-color:red">
+            <h1>Hello World</h1>
+        </div>
+        <div class="col" style="background-color:yellow">
+            <h1>Hello World</h1>
+        </div>
+        <div class="col" style="background-color:blue">
+            <h1>Hello World</h1>
+        </div>
+    </div>
+    
+<div class="row">
+    <div class="col-6" style="background-color:green">
+    Hello
+    </div>  
+</div>
+
+<div class="row">
+    <div class="col-md-6" style="background-color:yellow; border:1px solid">col-md-6</div>
+    <div class="col-md-6" style="background-color:yellow; border:1px solid">col-md-6</div>
+</div>
+<div class=row>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:red; border:1px solid;">one</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:green; border:1px solid;">two</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border:1px solid;">three</div>
+    <div class="col-lg-3 col-md-4 col-sm-6" style="background-color:pink; border:1px solid;">four</div>
+
+    
+</div>
+
+
+<div class=row>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:#66BFBF; border:1px solid;">one</div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:#66BFBF; border:1px solid;">two</div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:#66BFBF; border:1px solid;">three</div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:#66BFBF; border:1px solid;">four</div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:#66BFBF; border:1px solid;">five</div>
+    <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:#66BFBF; border:1px solid;">six</div>
+
+    
+</div>
+
+
+
+
+
+
+
